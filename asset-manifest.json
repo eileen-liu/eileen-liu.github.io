@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/static/css/main.c6656260.css",
+    "main.js": "/static/js/main.571b5111.js",
+    "static/media/Eileen_resume.pdf": "/static/media/Eileen_resume.ea3f58640a4ec2ee230a.pdf",
+    "static/media/march-banner.gif": "/static/media/march-banner.71ab6e6d2ba970918a3a.gif",
+    "static/media/summer-banner.gif": "/static/media/summer-banner.244aa941d7b76e4191d5.gif",
+    "static/media/sky.png": "/static/media/sky.291d13062931dcde92c8.png",
+    "static/media/nero-big.gif": "/static/media/nero-big.10305fdd929910025597.gif",
+    "static/media/eileen_grad.jpg": "/static/media/eileen_grad.0b0cf73b0333ba6540cd.jpg",
+    "static/media/hobbies.png": "/static/media/hobbies.00b5bd812dbfab5fde48.png",
+    "static/media/food.png": "/static/media/food.59b4b91378da272b3d34.png",
+    "static/media/mentorship kickoff.png": "/static/media/mentorship kickoff.a66b77eaabc524b0a782.png",
+    "static/media/favs.png": "/static/media/favs.7b2fa0c8ed5b696bb9f9.png",
+    "static/media/awe flyer 2.png": "/static/media/awe flyer 2.09ad7c1a54edf7499f8d.png",
+    "static/media/awe flyer.png": "/static/media/awe flyer.f9ececd5d70b82a097ab.png",
+    "static/media/gpt.png": "/static/media/gpt.5f0c5d7e5f7be377b84b.png",
+    "static/media/Akkurat-bold.ttf": "/static/media/Akkurat-bold.84fb80e6f493da2e7083.ttf",
+    "static/media/Akkurat.ttf": "/static/media/Akkurat.f370feda377f23d8fb61.ttf",
+    "static/media/hello_emoji.png": "/static/media/hello_emoji.2de2cd8f86bbf432e0dd.png",
+    "static/media/eileen_logo.png": "/static/media/eileen_logo.5a9b2cfc7da4e7365c5e.png",
+    "index.html": "/index.html",
+    "static/media/upright-arrow.svg": "/static/media/upright-arrow.253ed258555c51bb6fc7a514f0d03039.svg",
+    "main.c6656260.css.map": "/static/css/main.c6656260.css.map",
+    "main.571b5111.js.map": "/static/js/main.571b5111.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c6656260.css",
+    "static/js/main.571b5111.js"
+  ]
+}
