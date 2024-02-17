@@ -1,0 +1,70 @@
+.restricted-height-image {
+    max-height: 250px; 
+    width: 700px; 
+    float: right; 
+  }
+  
+  .emoji-image {
+    max-height: 50px; 
+    float: center; 
+    padding-top: 10px; 
+    padding-left: 10px; 
+  }
+  
+#landingContainer {
+    margin: 11rem 7.5rem 14.5rem 8rem;
+    width: auto;
+    text-align: left;
+}
+
+#greyHeadText {
+    color: rgba(170, 170, 170, 0.7);
+    font-size: 3.25rem;
+    font-family: 'Akkurat';
+    font-weight: normal;
+    letter-spacing: -0.25rem;
+}
+
+#currentJob {
+    color: #666666;
+}
+
+#currentJob {
+    margin-top: 0.75rem;
+    display: inline-block;
+    font-size: 1.1rem;
+}
+
+#cyclingHomeText span {
+    margin: 0rem 0.25rem;
+    text-decoration: underline solid #ffecf7 1rem;
+    text-decoration-skip-ink:none; 
+    text-underline-offset: -0.25rem; 
+}
+
+/* media viewport responsiveness */
+@media only screen and (max-width: 767px) {
+    #landingContainer {
+        margin: 15rem 2rem;
+    }
+
+    #currentJob {
+        margin-top: 1rem;
+    }
+
+    #cyclingHomeText {
+        background: none;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    #landingContainer {
+        margin: 15rem 1.5rem 12rem 2.5rem;
+    }
+
+    #cyclingHomeText {
+        background: none;
+    }
+
+}

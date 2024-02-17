@@ -1,0 +1,202 @@
+.playContainer {
+    margin: 8rem 7.5rem 10rem 7.5rem;
+    display: flex;
+  }
+
+#resContainer {
+    margin: 6rem 24rem 4rem 24rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    align-items: center;
+}
+  
+.content {
+    flex: 0 0 30%;
+    margin: 0 3rem 2rem 7rem;}
+
+.content h3 {
+    margin-bottom: 0.75rem;
+}
+
+/* Chart CSS */
+.chart {
+    display: flex;
+    flex-direction: column;
+}
+.row {
+    display: flex;
+    padding: 0px;
+    margin-bottom: 0px; /* Adjust margin to reduce spacing */
+
+}
+.cell {
+    flex: 1;
+    padding: 15px;
+}
+/* Chart CSS end */
+
+
+.galleryContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: auto;
+    padding: 1.25rem;
+    flex: 0 0 30%;
+  }
+  
+  .images {
+    transition: all 100ms ease;
+    width: 15vw;
+    height: auto;
+    padding: 0;
+    cursor: pointer;
+  }
+  
+.images:hover {
+    filter: opacity(0.7);
+}
+
+.images img{
+    max-width: 100%;
+    margin-bottom: 2rem;
+}
+
+.content a {
+    color: #202020;
+    font-weight: bold;
+    text-decoration: none;
+    transition: opacity 0.3s ease-in-out 0s;
+    background: url("data:image/svg+xml;charset=utf8,%3Csvg version='1.1' xmlns='http://www.w3.org/2000/svg' x='0px' y='0px' width='1px' height='1px' viewBox='0 0 1 1' preserveAspectRatio='none'%3E%3Crect x='0' y='0' width='1' height='1' fill='%23fff7a0' /%3E%3C/svg%3E") no-repeat 100% 100%;
+    background-size: 100% 25%;
+}
+
+.content a:hover{
+    opacity: 0.6;
+    background: url("data:image/svg+xml;charset=utf8,%3Csvg version='1.1' xmlns='http://www.w3.org/2000/svg' x='0px' y='0px' width='1px' height='1px' viewBox='0 0 1 1' preserveAspectRatio='none'%3E%3Crect x='0' y='0' width='1' height='1' fill='%23fff7a0' /%3E%3C/svg%3E") no-repeat 100% 100%;
+    background-size: 100%;
+}
+
+.content p {
+    color: #969696;
+}
+
+/* modal pop-up */
+.modal {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 4rem 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #202020;
+    transition: opacity 0.4s ease, visibility 0.4s ease, transform 0.5s ease-in-out;
+    visibility: hidden;
+    opacity: 0;
+    transform: scale(0);
+    z-index: 1000;
+    overflow-y: auto;
+}
+
+.modal.open{
+    visibility: visible;
+    opacity: 1;
+    transform: scale(1);
+}
+
+.modal > img {
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    max-height: 100%;
+    display: block;
+    line-height: 0;
+    box-sizing: border-box;
+    padding: 2rem 0 1.5rem 0;
+    margin: 0 auto;
+}
+
+.modal p {
+    color: #C4C4C4;
+}
+
+.modal.open > button {
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1.438rem;
+    background: #202020;
+    border: 0.125rem solid #333333;
+    transition: all 0.3s ease-out 0s;
+}
+
+/* close icon*/
+.modal.open > button > img{
+    width: 0.7rem;
+    height: auto;
+}
+
+.modal.open > button:hover {
+    transition: all 0.3s ease-out 0s;
+    background-color: #333333;
+    cursor: pointer;
+}
+
+
+/* media viewport responsiveness*/
+@media only screen and (max-width: 896px) {
+    .playContainer {
+        width: 90%;
+        margin: auto;
+        flex-direction: column;
+    }
+
+    .galleryContainer {
+        flex-direction: column;
+        padding: 0.625rem;
+        align-content: center;
+      }
+    
+      .images {
+        width: 100%;
+        margin: 0.625rem 0;
+      }
+
+    .modal {
+        padding: 1rem;
+    }
+    
+    .content {
+        margin: 1rem 0rem;
+    }
+}
+
+@media only screen and (min-width: 900px) and (max-width: 1298px){
+    .playContainer {
+        width: 90%;
+        margin: auto;
+        flex-direction: column;
+    }
+    
+    .galleryContainer {
+        column-count: 2;
+        margin: auto;
+        text-align: center;
+        align-content: center;
+      }
+    
+      .images {
+        width: calc(50% - 20px);
+        margin: 0.625rem;
+      }
+
+    .content {
+    margin: 1rem 2rem 2rem 2rem;
+    }
+}

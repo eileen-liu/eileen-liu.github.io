@@ -1,0 +1,15 @@
+#errorContainer {
+    background: linear-gradient(to bottom, white, rgba(69, 115, 232, 0.6));
+    padding: 8rem 30rem 10rem 30rem;
+    margin: auto;
+    text-align: center;
+}
+
+#errorContainer h1 {
+    font-size: 20rem;
+}
+
+#errorContainer p {
+    font-size: 1.25rem;
+}
+

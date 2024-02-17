@@ -1,0 +1,100 @@
+/* Akkurat Fonts */
+@font-face {
+  font-family: 'Akkurat';
+  src: url('./assets/fonts/Akkurat/Akkurat.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Akkurat Bold';
+  src: url('./assets/fonts/Akkurat/Akkurat-bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: bold;
+}
+
+/* Index Styling Here*/
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  overflow: auto;
+  background-color: #fefefe;
+}
+
+.emphasized {
+  font-style: italic;
+  margin: 0;
+}
+
+.bolded {
+  font-family: 'Akkurat Bold';
+  font-weight: normal;
+}
+
+p, h1, h2, h3, h4, h5 {
+  margin: 0.5rem 0;
+  font-style: normal;
+  color: #202020;
+}
+
+p {
+  font-family: 'Akkurat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+  font-weight: normal;
+  line-height: 1.75rem;
+}
+
+h1 {
+  font-family: 'Akkurat Bold', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+  font-weight: bold;
+  font-size: 2.5rem;
+  line-height: 130%;
+}
+
+h2 {
+  font-family: 'Akkurat Bold', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: 2.75rem;
+}
+
+h3 {
+  font-family: 'Akkurat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+  font-weight: normal;
+  font-size: 1.75rem;
+  line-height: 2.75rem;
+  letter-spacing: -0.5px;
+}
+
+h4 {
+  font-family: 'Akkurat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+  font-weight: normal;
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+}
+
+h5 {
+  font-family: 'Akkurat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+  font-weight: normal;
+  font-size: 1.25rem;
+  line-height: 2rem;
+}
+
+b {
+  font-family: 'Akkurat Bold', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+}
+
+.smallBody {
+  font-size: 0.8rem;
+  line-height: 1.25rem;
+}
+
+.italicBody {
+  font-style: italic;
+}
+
+::selection {
+background: #fff7a0;
+}

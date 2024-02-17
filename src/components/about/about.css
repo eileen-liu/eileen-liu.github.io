@@ -1,0 +1,220 @@
+#Exp {
+    margin: 0rem 3rem 0rem 3rem;
+}
+.text {
+    font-weight: 50;
+    letter-spacing: 5.25px;
+    font-family: '';
+    font-size: 20px;
+    fill: black;
+  }
+
+  #rotatingText {
+    animation-name: rotate-circle;
+    animation-duration: 20s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+  }
+
+  @keyframes rotate-circle {
+    to {
+      transform: rotate(1turn);
+    }
+  }
+
+  .main {
+    display: grid;
+    align-items: right;
+    justify-items: right;
+    position: absolute; /* Absolute positioning for overlay */
+    top: 0; /* Position from the top edge of the container */
+    width: 100%; /* Ensure overlay spans the entire container */
+    right: 5px; 
+    background-color: rgba(0, 0, 0, 0); /* Semi-transparent black background */
+    color: white; /* Text color for overlay content */
+    text-align: center; /* Center text horizontally */
+    box-sizing: border-box; 
+    z-index: -1; /* Place overlay above image */
+  }
+
+.sky{ 
+    width: 100%; 
+}
+
+#bioContainer {
+    display: flex;
+    margin: 5rem 10rem 5rem 10rem;
+    flex-direction: column;
+    gap: 3rem;
+    position: static;
+    align-items: left;
+    background-color: white;
+}
+
+
+#bioContainer img {
+    border-radius: 1rem;
+    width: 30vw;
+    padding: 20px; 
+    height: auto;
+    float: right; 
+    cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='60' height='72' viewport='0 0 100 100' style='fill:black;font-size:36px;'><text y='50%'>🍓</text></svg>") 16 0,auto;
+}
+
+#tldrBlock h1{
+    color: rgba(170, 170, 170, 0.7);
+    margin-bottom: 0.6rem;
+}
+
+#tldrBlock {
+    margin-bottom: 1.5rem;
+}
+
+#infoBlock p{
+   color: #666666;
+}
+
+#infoBlock span{
+    color: black;
+ }
+
+#spotifyContainer {
+    display: flex;
+    flex-direction: row;
+    background-color: #F4F4F4;
+    border-radius: 1rem;
+    padding: 1.25rem;
+    gap: 2rem;
+    margin: 3rem 9rem;
+}
+
+#spotifyContainer img {
+    width: 8vw;
+    height: auto;
+    background: #F4F4F4;
+    margin: auto 0rem;
+    border-radius: 0.75rem;
+    cursor: pointer;
+}
+
+#spotifyContainer h5 {
+    text-overflow: ellipsis;
+    margin: 0.75rem auto 0rem auto;
+}
+
+#spotifyContainer p {
+    color: #8F8F8F;
+    text-overflow: ellipsis;
+    margin: 0rem;
+}
+
+#nowPlayingContainer {
+    display: flex;
+    flex-direction: row;
+    gap: 0.3rem;
+    justify-items: center;
+    margin: 1rem 0rem 0rem 0rem;
+}
+
+#nowPlayingContainer p {
+    color: #62CB6B;
+}
+
+#playingAnimation {
+    margin-right: 0.25rem;
+    position: relative;
+    display: flex;
+    align-items: center;
+    background: #F4F4F4;
+}
+
+.playingIndicatorLine {
+    width: 0.188rem;
+    height: 0.188rem;
+    margin-right: 0.188rem;
+    background: #62CB6B;
+    border-radius: 0.094rem;
+}
+
+@keyframes playing{
+    0%{
+        height:0.188rem
+    }
+    50%{
+        height:1rem
+    }
+    to{
+        height:0.188rem
+    }
+}
+
+#first {
+    animation: playing 0.85s infinite ease;
+}
+
+#second {
+    animation: playing 1.26s infinite ease;
+}
+
+#third {
+    animation: playing 0.62s infinite ease;
+}
+
+#infoBlock {
+    margin-top: 0.8rem;
+}
+
+#infoBlock a {
+    color: #202020;
+    text-decoration: none;
+    transition: opacity 0.3s ease-in-out 0s;
+    background: url("data:image/svg+xml;charset=utf8,%3Csvg version='1.1' xmlns='http://www.w3.org/2000/svg' x='0px' y='0px' width='1px' height='1px' viewBox='0 0 1 1' preserveAspectRatio='none'%3E%3Crect x='0' y='0' width='1' height='1' fill='%23FFFFFF' /%3E%3C/svg%3E") no-repeat 100% 100%;
+    background-size: 100% 25%;
+    /* Change highlight color */
+
+}
+
+.content a:hover{
+    opacity: 0.6;
+    background: url("data:image/svg+xml;charset=utf8,%3Csvg version='1.1' xmlns='http://www.w3.org/2000/svg' x='0px' y='0px' width='1px' height='1px' viewBox='0 0 1 1' preserveAspectRatio='none'%3E%3Crect x='0' y='0' width='1' height='1' fill='%23FBEFEF' /%3E%3C/svg%3E") no-repeat 100% 100%;
+    background-size: 100%;
+}
+
+@media only screen and (max-width: 1023px) { 
+    #bioContainer {
+        margin: 4rem 1rem 5.5rem 1rem;
+        flex-direction: column;
+    }
+
+    #infoBlock {
+        margin-top: 1rem;
+    }
+
+    #infoBlock, #tldrBlock {
+        margin: auto 1rem;
+    }
+
+
+    #bioContainer img {
+        width: 500px;
+        height: auto;
+    }
+
+    #spotifyContainer img {
+        width: 15rem;
+        height: auto;
+        background: #F4F4F4;
+        margin: auto;
+    }
+
+    #spotifyContainer {
+        margin: 2.5rem 3rem;
+        flex-direction: column;
+        padding: 2rem;
+    }
+
+    #nowPlayingContainer {
+        margin: 0rem;
+    }
+
+}

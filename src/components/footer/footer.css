@@ -1,0 +1,217 @@
+.icon-image {
+  max-height: 30px; /* Set maximum height as needed */
+  float: center; 
+}
+
+#boxContainer {
+    background-color: #202020;
+    width: auto;
+    padding: 2.5rem 7.5rem;
+    opacity: 0;
+    transform: translateY(100px);
+    animation: slideIn 1s forwards, transform 1s ease;
+  }
+  
+  #footerBoxes {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  
+  
+  #contactRow {
+    display: flex;
+    column-gap: 11.25rem;
+    row-gap: 3.5rem;
+    margin: auto;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .socialsColumn {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  
+  .socialsColumn p {
+    margin: 0rem;
+    color: #f8f8f8;
+  }
+  
+  .socialsColumn a {
+    font-family: 'Akkurat';
+    font-style: normal;
+    text-decoration: none;
+    color: white;
+    transition: opacity 0.3s ease-in-out 0s;
+  }
+  
+  .socialsColumn a:hover {
+    opacity: 0.5;
+  }
+  
+  .socialsBox {
+    display: flex;
+    gap: 4.5rem;
+  }
+  
+  .arrow {
+    width: 0.75rem;
+    height: auto;
+  }
+  
+  .arrow path {
+    stroke: #8F8F8F;
+    align-self: center;
+  }
+  
+  .arrowLink {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+    align-items: center;
+  }
+  
+  .arrowLink p {
+    color: #8F8F8F;
+  }
+  
+  #arrowSection {
+    color: #8F8F8F;
+  }
+  
+  #nameBold {
+    color: white;
+    font-family: 'Akkurat Bold';
+    margin: 0rem;
+  }
+  
+  #subGrey {
+    color: #8F8F8F;
+    margin: 0rem;
+  }
+  
+  #spotifyFooterBox {
+    margin: 0rem 3rem;
+  }
+  
+  #spotifyFooterBox p {
+    color: #8F8F8F;
+    margin-bottom: 1rem;
+    margin-top: 0rem;
+  }
+  
+  #spotifyFooterBox img {
+    width: 7.5vw;
+    height: auto;
+    border-radius: 0.5rem;
+    margin: auto;
+  }
+
+  
+  #smallerBox p {
+    margin: 0rem;
+    color: #8F8F8F;
+  }
+
+  ::selection {
+    background: #9b9449; 
+    color: #333333;
+  }
+  
+  /* media viewport responsiveness */
+  @media only screen and (max-width: 767px) {
+    #boxContainer {
+      padding: 2.5rem 1rem;
+    }
+  
+    #footerBoxes {
+      display: flex;
+      flex-direction: column;
+      gap: 4rem;
+    }
+
+    #contactRow {
+        flex-direction: column;
+        row-gap: 2.5rem;
+        column-gap: 11.5rem;
+        justify-content: center;
+        margin: auto;
+        align-items: center;
+    }
+
+    #spotifyFooterBox {
+        margin: 0rem 1rem;
+    }
+
+    #spotifyFooterBox img {
+        width: 13.5vw;
+        height: auto;
+    }
+
+    #spotifyFooterBox p{
+        margin-bottom: 0.75rem;
+    }
+
+    #smallerBox {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .socialsBox {
+        gap: 5rem;
+    }
+
+    #spotifyFooterBox img {
+        width: 22vw;
+        height: auto;
+    }
+
+  }
+  
+  @media (min-width: 768px) and (max-width: 1023px) {
+    #boxContainer {
+      padding: 2.5rem 3rem;
+    }
+  
+    #footerBoxes {
+      display: flex;
+      flex-direction: row;
+      gap: 2rem;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+    }
+
+    #contactRow {
+        row-gap: 3rem;
+        column-gap: 6rem;
+        margin: auto;
+    }
+
+    .socialsBox {
+        gap: 3.5rem;
+    }
+
+    #spotifyFooterBox {
+        margin: 0rem 1rem;
+    }
+
+    #spotifyFooterBox img {
+        width: 13.5vw;
+        height: auto;
+    }
+
+    #spotifyFooterBox p{
+        margin-bottom: 0.75rem;
+    }
+
+   #smallerBox {
+        text-align: center;
+        display: flex;
+        margin: 1.5rem auto;
+        flex-direction: column;
+    }
+  }
+  
