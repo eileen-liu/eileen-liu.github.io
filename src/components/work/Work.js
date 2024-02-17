@@ -30,7 +30,7 @@ const Work = () => {
       </div>
       <div id='personalTitle'
       className='workContainer'>
-        {/* <motion.h1
+        <motion.h1
           style = {{color: "black"}}
           initial={{ opacity: 0, y: -100 }}
           animate={{ opacity: 1, y: 0 }}
@@ -38,7 +38,7 @@ const Work = () => {
         >
          💫 Projects 
         </motion.h1>
-        <p> Still in the works... pardon the dust!</p> */}
+        <p> Still in the works... pardon the dust!</p>
         <div id='workColumns' className='doubleColumns'>
         </div>
       </div>
