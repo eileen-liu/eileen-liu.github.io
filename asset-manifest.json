@@ -1,10 +1,12 @@
 {
   "files": {
-    "main.css": "/static/css/main.41dda8fe.css",
-    "main.js": "/static/js/main.cfbc959f.js",
+    "main.css": "/static/css/main.6c91a878.css",
+    "main.js": "/static/js/main.e0f7bea6.js",
     "static/media/Eileen_resume.pdf": "/static/media/Eileen_resume.69cda97649f1421d26f4.pdf",
     "static/media/march-banner.gif": "/static/media/march-banner.71ab6e6d2ba970918a3a.gif",
+    "static/media/sky2.png": "/static/media/sky2.27462b72ecf1ad6025cc.png",
     "static/media/summer-banner.gif": "/static/media/summer-banner.244aa941d7b76e4191d5.gif",
+    "static/media/workheader.png": "/static/media/workheader.9b8aa781e475f88c8c3b.png",
     "static/media/sky.png": "/static/media/sky.291d13062931dcde92c8.png",
     "static/media/nero-big.gif": "/static/media/nero-big.10305fdd929910025597.gif",
     "static/media/berkeley.png": "/static/media/berkeley.e3d1559dad3c4f4a192e.png",
@@ -13,6 +15,7 @@
     "static/media/hobbies.png": "/static/media/hobbies.00b5bd812dbfab5fde48.png",
     "static/media/food.png": "/static/media/food.59b4b91378da272b3d34.png",
     "static/media/mentorship kickoff.png": "/static/media/mentorship kickoff.a66b77eaabc524b0a782.png",
+    "static/media/placeholder.svg": "/static/media/placeholder.25846a4ca88d8bca47e581f42f0d55f4.svg",
     "static/media/favs.png": "/static/media/favs.7b2fa0c8ed5b696bb9f9.png",
     "static/media/awe flyer 2.png": "/static/media/awe flyer 2.09ad7c1a54edf7499f8d.png",
     "static/media/awe flyer.png": "/static/media/awe flyer.f9ececd5d70b82a097ab.png",
@@ -20,14 +23,15 @@
     "static/media/Akkurat-bold.ttf": "/static/media/Akkurat-bold.84fb80e6f493da2e7083.ttf",
     "static/media/Akkurat.ttf": "/static/media/Akkurat.f370feda377f23d8fb61.ttf",
     "static/media/hello_emoji.png": "/static/media/hello_emoji.2de2cd8f86bbf432e0dd.png",
-    "static/media/eileen_logo.png": "/static/media/eileen_logo.5a9b2cfc7da4e7365c5e.png",
+    "static/media/eileen_logo white.svg": "/static/media/eileen_logo white.0bb6d33c67b624761a8e807a931a62dd.svg",
+    "static/media/eileen_logo.svg": "/static/media/eileen_logo.b16ece5871681aef43fea7c238b56505.svg",
     "index.html": "/index.html",
     "static/media/upright-arrow.svg": "/static/media/upright-arrow.253ed258555c51bb6fc7a514f0d03039.svg",
-    "main.41dda8fe.css.map": "/static/css/main.41dda8fe.css.map",
-    "main.cfbc959f.js.map": "/static/js/main.cfbc959f.js.map"
+    "main.6c91a878.css.map": "/static/css/main.6c91a878.css.map",
+    "main.e0f7bea6.js.map": "/static/js/main.e0f7bea6.js.map"
   },
   "entrypoints": [
-    "static/css/main.41dda8fe.css",
-    "static/js/main.cfbc959f.js"
+    "static/css/main.6c91a878.css",
+    "static/js/main.e0f7bea6.js"
   ]
 }
