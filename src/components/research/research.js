@@ -4,6 +4,7 @@ import { motion, useAnimation } from 'framer-motion';
 import Header from '../header/Header';
 import Footer from '../footer/Footer';
 import './research.css';
+import sky from './berkeley.png'
 
 export default function About() {
   window.scrollTo(0, 0); 
@@ -75,8 +76,18 @@ export default function About() {
         <title>Research</title>
       </Helmet>
       <Header />
+      <div class = "skyContainer">
+      <img
+            loading='lazy'
+            src={sky}
+            alt='Pretty Sky :)'
+            class = "sky"
+      />
+      </div>
+
       <div id='resContainer'>
         <div >
+        <motion.p {...textMotionProps}>
           <div id='tldrBlock'>
             <h2 {...textMotionProps} >Publications</h2>
           </div>
@@ -170,6 +181,7 @@ export default function About() {
               <div class="cell"><p><b>Academic Student Employee</b><br></br>EECS16A: Designing Informationn Devices and Systems I, UC Berkeley</p></div>
           </div>
           </div>
+          </motion.p>
 
         </div>
       </div>

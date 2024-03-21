@@ -1,0 +1,45 @@
+.arrow-container {
+  display: flex;
+  padding-top: 50px;
+  justify-content: flex-end; /* Align items to the right */
+  align-items: center;
+  color: hsl(325, 100%, 96%);
+  margin-bottom: 50px;
+  padding-right: 30px;
+}
+
+.arrow-link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  position: relative; /* Add position relative */
+}
+
+.arrow-text {
+  margin-right: 10px;
+  color: black;
+}
+
+.arrow-right {
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  color: black;
+
+  animation: arrowMove 2s ease-in-out infinite alternate; /* Define the animation */
+}
+
+.arrow-right::after {
+  position: absolute;
+  width: 20px; /* Adjust the width of the line */
+  height: 2px; /* Adjust the height of the line */
+  background-color: #ffecf7; /* Change the color as needed */
+}
+
+@keyframes arrowMove {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(10px); /* Adjust the distance the arrow moves */
+  }
+}

@@ -20,6 +20,7 @@
   
   
   #contactRow {
+    text-align: center;
     display: flex;
     column-gap: 11.25rem;
     row-gap: 3.5rem;
@@ -29,6 +30,7 @@
   }
   
   .socialsColumn {
+    justify-items: center;
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
@@ -80,11 +82,9 @@
   #arrowSection {
     color: #8F8F8F;
   }
-  
-  #nameBold {
-    color: white;
-    font-family: 'Akkurat Bold';
-    margin: 0rem;
+
+  .logo-image-footer{
+    height: 25px;
   }
   
   #subGrey {
@@ -112,7 +112,10 @@
   
   #smallerBox p {
     margin: 0rem;
-    color: #8F8F8F;
+    color: white;
+    text-align: center;
+    padding: 0;
+    
   }
 
   ::selection {

@@ -9,8 +9,11 @@
     flex-direction: column;
     gap: 3rem;
     align-items: center;
+    font-size: 14px; /* Adjust the font size as needed */
+    max-width: 600px; /* Set the maximum width for the text */
+    margin: auto;
 }
-  
+
 .content {
     flex: 0 0 30%;
     margin: 0 3rem 2rem 7rem;}
@@ -28,8 +31,15 @@
     display: flex;
     padding: 0px;
     margin-bottom: 0px; /* Adjust margin to reduce spacing */
+}
+
+.column {
+    display: flex;
+    padding: 0px;
+    margin-bottom: 0px; /* Adjust margin to reduce spacing */
 
 }
+
 .cell {
     flex: 1;
     padding: 15px;
@@ -151,6 +161,13 @@
 
 /* media viewport responsiveness*/
 @media only screen and (max-width: 896px) {
+    #resContainer {
+        padding-top: 100px;
+        width: 90%;
+        margin: auto;
+        flex-direction: column;
+    }
+
     .playContainer {
         width: 90%;
         margin: auto;
@@ -163,7 +180,7 @@
         align-content: center;
       }
     
-      .images {
+    .images {
         width: 100%;
         margin: 0.625rem 0;
       }

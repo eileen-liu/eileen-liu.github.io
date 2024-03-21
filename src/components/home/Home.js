@@ -6,6 +6,7 @@ import Footer from '../footer/Footer';
 import './home.css';
 import neuron from './nero-big.gif';
 import helloEmoji from './hello_emoji.png';
+import ArrowButton from './arrowbutton.js';
 
 const hoverEffect = {
   scale: 1.075,
@@ -149,9 +150,9 @@ export default function Home() {
           variants={containerVariants}
         >
           <p id='currentJob'>📍 Currently Researching RL Agents @ <span> The Gopnik Lab for Cognitive Development and Learning</span></p>
+          <motion.div onClick={handleClick} whileHover={hoverEffect}><ArrowButton ></ArrowButton> </motion.div>
         </motion.div>
       </div>
-      
       <Footer />
     </div>
   );

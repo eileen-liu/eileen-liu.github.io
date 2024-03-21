@@ -1,12 +1,111 @@
-#Exp {
-    margin: 0rem 3rem 0rem 3rem;
+
+
+.line-break2{
+    display: block;
+    content: "";
+    margin-bottom: 100px; /* Adjust as needed */
 }
+#styling {
+    top: 5%;
+    left: 65%;
+}
+
+#music {
+    top: 0%;
+    left: 10%;
+    width: 200px;
+}
+#concert {
+    top: 30%;
+    left: 25%;
+}
+.topbottomtext {
+    color: #666666;
+    position: absolute;
+    width: 700px;
+    top: 10%; /* Adjust vertical position as needed */
+    left: 20%; /* Adjust horizontal position as needed */
+    max-width: 400px; /* Set a maximum width for the text */
+    padding: 10px; /* Add padding for better readability */
+    font-size: 14px;
+    text-align: left;
+    font-family: 'Akkurat';
+    text-decoration: underline; /* Add underline to each line of text */
+    text-decoration-thickness: 2px; /* Change the width (thickness) of the underline to 2px */
+    text-decoration-color: #f5c5e0; /* Change the color of the underline to blue */
+}
+
+.hobbytext {
+    color: #666666;
+    position: absolute;
+    width: 150px;
+    max-width: 400px; /* Set a maximum width for the text */
+    padding: 10px; /* Add padding for better readability */
+    font-size: 14px;
+    text-align: center;
+    font-family: 'Akkurat';
+    text-decoration: underline; /* Add underline to each line of text */
+    text-decoration-thickness: 2px; /* Change the width (thickness) of the underline to 2px */
+    text-decoration-color: #f5c5e0; /* Change the color of the underline to blue */
+  }
+
+.hobbycontainer {
+    position: relative;
+    height: 500px; /* Set a fixed height for the container */
+    width: 100vw; /* Ensure the container spans the entire width */
+    max-width: 100%; /* Set a maximum width for the container */
+    margin: auto; /* Center the container horizontally */
+    text-align: center;   
+  }
+  
+  .hobbycontainer img {
+    height: auto; /* Ensure the image fills the container's height */
+    width: 300px; /* Ensure the image fills the container's width */
+    object-fit: cover; /* Maintain aspect ratio and cover the container */
+    
+}
+
+.smallText {
+    font-size: 14px; /* Adjust the font size as needed */
+    max-width: 400px; /* Set the maximum width for the text */
+    display: block; /* Ensure the text wraps within the specified width */
+    white-space: wrap; /* Prevent text from wrapping */
+    margin: auto;
+    text-align: left;
+    font-family: 'Akkurat';
+    color: #666666;
+  }
+
+  .smallText a {
+    text-decoration: none;
+    color: black;
+  }
+
+#Exp {
+    margin: 0rem 0rem 0rem 0rem;
+}
+
+.rowhobbies {
+    display: flex;
+    padding: 0px;
+    margin-bottom: 0px; /* Adjust margin to reduce spacing */
+}
+
+.rowCollapse {
+    display: flex;
+    flex-direction: column;
+}
+
+.skyContainer{
+    overflow-x: hidden;
+}
+
 .text {
     font-weight: 50;
     letter-spacing: 5.25px;
     font-family: '';
     font-size: 20px;
-    fill: black;
+    fill: white;
   }
 
   #rotatingText {
@@ -24,17 +123,17 @@
 
   .main {
     display: grid;
-    align-items: right;
-    justify-items: right;
+    align-items: left;
+    justify-items: left;
     position: absolute; /* Absolute positioning for overlay */
-    top: 0; /* Position from the top edge of the container */
+    bottom: -19vh; /* Position from the top edge of the container */
     width: 100%; /* Ensure overlay spans the entire container */
-    right: 5px; 
     background-color: rgba(0, 0, 0, 0); /* Semi-transparent black background */
     color: white; /* Text color for overlay content */
     text-align: center; /* Center text horizontally */
     box-sizing: border-box; 
-    z-index: -1; /* Place overlay above image */
+    padding-left: 20px;
+    z-index: 1; /* Place overlay above image */
   }
 
 .sky{ 
@@ -43,24 +142,18 @@
 
 #bioContainer {
     display: flex;
+    justify-content: center; /* Center items horizontally */
+    align-items: center; /* Center items vertically */
     margin: 5rem 10rem 5rem 10rem;
-    flex-direction: column;
-    gap: 3rem;
-    position: static;
-    align-items: left;
     background-color: white;
-}
-
-
-#bioContainer img {
+  }
+  
+  #bioContainer img {
     border-radius: 1rem;
-    width: 30vw;
-    padding: 20px; 
+    max-width: 100%; /* Ensure the image doesn't exceed its container's width */
     height: auto;
-    float: right; 
-    cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='60' height='72' viewport='0 0 100 100' style='fill:black;font-size:36px;'><text y='50%'>🍓</text></svg>") 16 0,auto;
-}
-
+  }
+  
 #tldrBlock h1{
     color: rgba(170, 170, 170, 0.7);
     margin-bottom: 0.6rem;
@@ -167,11 +260,12 @@
 #infoBlock a {
     color: #202020;
     text-decoration: none;
+    font-weight: bold; 
     transition: opacity 0.3s ease-in-out 0s;
-    background: url("data:image/svg+xml;charset=utf8,%3Csvg version='1.1' xmlns='http://www.w3.org/2000/svg' x='0px' y='0px' width='1px' height='1px' viewBox='0 0 1 1' preserveAspectRatio='none'%3E%3Crect x='0' y='0' width='1' height='1' fill='%23FFFFFF' /%3E%3C/svg%3E") no-repeat 100% 100%;
+    /* Change underline highlight color here */
+    background: url("data:image/svg+xml;charset=utf8,%3Csvg version='1.1' xmlns='http://www.w3.org/2000/svg' x='0px' y='0px' width='1px' height='1px' viewBox='0 0 1 1' preserveAspectRatio='none'%3E%3Crect x='0' y='0' width='1' height='1' fill='%23ffffff' /%3E%3C/svg%3E") no-repeat 100% 100%;
     background-size: 100% 25%;
     /* Change highlight color */
-
 }
 
 .content a:hover{
@@ -181,9 +275,83 @@
 }
 
 @media only screen and (max-width: 1023px) { 
-    #bioContainer {
-        margin: 4rem 1rem 5.5rem 1rem;
+    .line-break {
+        display: block;
+        content: "";
+        margin-bottom: 160px; /* Adjust as needed */
+      }
+
+      .line-break2 {
+        display: block;
+        content: "";
+        margin-bottom: 160px; /* Adjust as needed */
+      }
+    #concert {
+        top: 10%;
+        left: -3%;
+    }
+
+    #styling {
+        top: -30%;
+        left: 75%;
+    }
+
+    #music {
+        top: -40%;
+        left: 10%;
+        width: 130px;
+    }
+
+    .hobbytext {
+        width: 90px;
+    }
+
+    #Exp {
+        margin-left: -17%;
+        border-collapse: collapse;
+        justify-content: center;
+
+    }
+
+    .sky{ 
+        height: 700px; 
+        width: auto;
+    }
+
+    .main {
+        bottom: 20px;
+    }
+    
+    #rotatingText {
+        width: 150px;
+        height: 150px;
+    }
+
+/* Makes rows collapse */
+
+    .rowCollapse {
+        display: flex;
         flex-direction: column;
+    }
+
+    .rowhobbies {
+        margin: 0rem 0rem 0rem -1rem;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    .main {
+    position: absolute; /* Absolute positioning for overlay */
+    width: 92%; /* Ensure overlay spans the entire container */
+    left: 0px; 
+    }
+
+    #bioContainer {
+        margin: 4rem 0rem 7rem 0rem;
+        flex-direction: column;
+        overflow: hidden;
     }
 
     #infoBlock {
@@ -192,12 +360,15 @@
 
     #infoBlock, #tldrBlock {
         margin: auto 1rem;
+        width: 90%;
+        margin: auto;
+        flex-direction: column;
     }
 
-
     #bioContainer img {
-        width: 500px;
-        height: auto;
+        margin-top: 40px;
+        width: 200px;
+        height: auto;     
     }
 
     #spotifyContainer img {
@@ -205,6 +376,7 @@
         height: auto;
         background: #F4F4F4;
         margin: auto;
+
     }
 
     #spotifyContainer {

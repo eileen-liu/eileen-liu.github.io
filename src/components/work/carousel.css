@@ -1,0 +1,18 @@
+    .carousel-inner img {
+      height: 230px; /* Set the desired height here */
+      object-fit: cover; /* Ensure images maintain aspect ratio */
+      background-color: transparent;
+      display: flex;
+      justify-content: center;
+      margin: auto; /* Center the images horizontally */
+    }
+
+    /* Customize carousel controls */
+    .carousel-control-prev,
+    .carousel-control-next {
+      color: black;
+      font-size: 30px;
+      max-width: 40px;
+      background: rgb(226, 226, 226);
+      border: none;
+    }

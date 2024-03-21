@@ -43,7 +43,7 @@ p, h1, h2, h3, h4, h5 {
 p {
   font-family: 'Akkurat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
   font-weight: normal;
-  line-height: 1.75rem;
+  line-height: 1.3rem;
 }
 
 h1 {
@@ -96,5 +96,5 @@ b {
 }
 
 ::selection {
-background: #fff7a0;
+background: #ffecf7;
 }

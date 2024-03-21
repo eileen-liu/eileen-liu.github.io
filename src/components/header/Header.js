@@ -1,9 +1,9 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
+import { NavLink, Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import resume from '../../assets/Eileen_resume.pdf';
 import './header.css';
-import BrandName from './eileen_logo.png';
+import BrandName from './eileen_logo.svg';
 
 const navLinkVariants = {
   hover: {
@@ -32,16 +32,43 @@ const linkHoverEffect = {
   },
 };
 
+document.addEventListener('DOMContentLoaded', async () => {
+  try {
+    // Fetch the IP address of the client using an external service
+    const response = await fetch('https://api64.ipify.org?format=json');
+    const data = await response.json();
+    const ipAddress = data.ip;
+
+    // Call the ipapi API to get location information
+    const locationResponse = await fetch(`https://ipapi.co/${ipAddress}/json/`);
+    const locationData = await locationResponse.json();
+
+    // Format and display the time and location information
+    const currentTime = new Date().toLocaleTimeString();
+    const location = `${locationData.city}, ${locationData.region}, ${locationData.country_name}`;
+
+    const timeAndLocationDiv = document.getElementById('timeAndLocation');
+    timeAndLocationDiv.innerHTML = `
+      <p>Current Time: ${currentTime}</p>
+      <p>Location: ${location}</p>
+    `;
+  } catch (error) {
+    console.error('Error fetching time and location:', error.message);
+  }
+});
+
 
 export default function Header() {
   return (  
     <div className='headerContainer'>
       <div class="logo-container">
+      <Link to="/">
       <img
             src={BrandName}
             alt="Eileen Liu"
             className="logo-image"
           />
+        </Link>
   
       <div id='navBar'>
         <motion.div

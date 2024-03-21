@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import './work.css';
 
-export default function WorkItem({ workData }) {
+export default function WorkItemEven({ workData }) {
   const itemVariants = {
     hidden: { opacity: 0, y: 150 },
     visible: {
@@ -31,12 +31,6 @@ export default function WorkItem({ workData }) {
             animate='visible'
             variants={itemVariants}
           >
-            <Link to={item.workLink} style={{ textDecoration: 'none' }}>
-              <motion.img
-                src={item.imgSrc}
-                whileHover={{ scale: 1.1, y: -10, transition: { type: 'spring', damping: 10, stiffness: 400 } }}
-              />
-            </Link>
             <div id='workInfo'>
               <div id='labels'>
                 {item.labels.map((label, labelIndex) => (
@@ -58,11 +52,18 @@ export default function WorkItem({ workData }) {
                   className='rounded-button'
                   whileHover={{ scale: 1.1, backgroundColor: 'grey'}}
                   style={{ backgroundColor: 'pink', color: 'white', border: 'transparent', padding: '10px', borderRadius: '20px', textAlign: 'left'}}
-                >Case Study →
+                >Coming Soon!
                   </motion.button>
                   </Link>
                   </p>
             </div>
+            <Link to={item.workLink} style={{ textDecoration: 'none' }}>
+            <motion.img
+              style={{ float: 'right', marginRight: 0 }} // Align to the right
+              src={item.imgSrc}
+              whileHover={{ scale: 1.1, y: -10, transition: { type: 'spring', damping: 10, stiffness: 400 } }}
+            />
+          </Link>
           </motion.div>
         ))}
       </div>

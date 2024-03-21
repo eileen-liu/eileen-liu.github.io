@@ -5,10 +5,12 @@
 }
 .logo-container {
     position: fixed;
+    align-content: center;
+    text-align: center;
     top: 0;
     left: 0;
     width: 100%; /* Makes sure the logo spans the entire width */
-    background-color: #ffffff; /* Optional background color for the logo container */
+    background-color:rgba(255, 255, 255, 0.9); /* Optional background color for the logo container */
     z-index: 999; /* Ensures the logo is on top of other content */
 }
 
@@ -89,6 +91,6 @@
 
     #navBar {
         gap: 0rem;
-        margin-top: 1.5rem;
+        margin-top: 0.5rem;
     }
 }
