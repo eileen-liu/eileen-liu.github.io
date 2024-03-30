@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.f394945f.css",
-    "main.js": "/static/js/main.af181070.js",
+    "main.css": "/static/css/main.abbfd8a2.css",
+    "main.js": "/static/js/main.60c7fd88.js",
     "static/media/Eileen_resume.pdf": "/static/media/Eileen_resume.69cda97649f1421d26f4.pdf",
     "static/media/march-banner.gif": "/static/media/march-banner.71ab6e6d2ba970918a3a.gif",
     "static/media/sky2.png": "/static/media/sky2.27462b72ecf1ad6025cc.png",
@@ -15,29 +15,35 @@
     "static/media/Picture1.png": "/static/media/Picture1.798ca3553f5424225f0b.png",
     "static/media/mentorship kickoff.png": "/static/media/mentorship kickoff.a66b77eaabc524b0a782.png",
     "static/media/pilates.png": "/static/media/pilates.04bd17f43378205b9a83.png",
-    "static/media/placeholder.svg": "/static/media/placeholder.25846a4ca88d8bca47e581f42f0d55f4.svg",
+    "static/media/bearlodge.png": "/static/media/bearlodge.3d2aafcafad8a1ab84f9.png",
     "static/media/awe flyer 2.png": "/static/media/awe flyer 2.09ad7c1a54edf7499f8d.png",
     "static/media/awe flyer.png": "/static/media/awe flyer.f9ececd5d70b82a097ab.png",
     "static/media/graphic.png": "/static/media/graphic.0cb82bf1b6149b56e5bc.png",
-    "static/media/sushi.png": "/static/media/sushi.25ff1a7278ec1ed11878.png",
+    "static/media/show.png": "/static/media/show.71e0959db802045f5695.png",
+    "static/media/mooncake.png": "/static/media/mooncake.4327b0b582c64cc42c91.png",
+    "static/media/plushie.png": "/static/media/plushie.806bdf9d5ff02da95d06.png",
     "static/media/music.png": "/static/media/music.3f6ce122ff77269d9773.png",
+    "static/media/sushi.png": "/static/media/sushi.d20b29d3638abd9f067a.png",
+    "static/media/tiramisu.png": "/static/media/tiramisu.5a14be23380ccd06f167.png",
     "static/media/travel.png": "/static/media/travel.5ee6985671be8a41ac6a.png",
     "static/media/style.png": "/static/media/style.ccac8e0da41f50affea2.png",
     "static/media/Akkurat-bold.ttf": "/static/media/Akkurat-bold.84fb80e6f493da2e7083.ttf",
-    "static/media/gpt.png": "/static/media/gpt.4fd3fa1102ded4efc0c7.png",
+    "static/media/ourkitchen.png": "/static/media/ourkitchen.885d232c10bb252d88e9.png",
+    "static/media/gpt.png": "/static/media/gpt.6422845640b470cd579b.png",
     "static/media/song.jpeg": "/static/media/song.4ba07b3b6c6c5cb6ba79.jpeg",
     "static/media/Akkurat.ttf": "/static/media/Akkurat.f370feda377f23d8fb61.ttf",
     "static/media/festival.png": "/static/media/festival.f4271130c5c23509a3fe.png",
+    "static/media/checkmate.png": "/static/media/checkmate.bdfcbcc6cbdb980d813b.png",
     "static/media/hello_emoji.png": "/static/media/hello_emoji.2de2cd8f86bbf432e0dd.png",
     "static/media/eileen_logo white.svg": "/static/media/eileen_logo white.0bb6d33c67b624761a8e807a931a62dd.svg",
     "static/media/eileen_logo.svg": "/static/media/eileen_logo.b16ece5871681aef43fea7c238b56505.svg",
     "index.html": "/index.html",
     "static/media/upright-arrow.svg": "/static/media/upright-arrow.253ed258555c51bb6fc7a514f0d03039.svg",
-    "main.f394945f.css.map": "/static/css/main.f394945f.css.map",
-    "main.af181070.js.map": "/static/js/main.af181070.js.map"
+    "main.abbfd8a2.css.map": "/static/css/main.abbfd8a2.css.map",
+    "main.60c7fd88.js.map": "/static/js/main.60c7fd88.js.map"
   },
   "entrypoints": [
-    "static/css/main.f394945f.css",
-    "static/js/main.af181070.js"
+    "static/css/main.abbfd8a2.css",
+    "static/js/main.60c7fd88.js"
   ]
 }
