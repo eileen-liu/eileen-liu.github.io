@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.5bbcf1bc.css",
-    "main.js": "/static/js/main.e30d40a2.js",
+    "main.css": "/static/css/main.6f80450f.css",
+    "main.js": "/static/js/main.18d3374d.js",
     "static/media/OurKitchen.pdf": "/static/media/OurKitchen.8cf0e7997e13a8e7c26f.pdf",
     "static/media/Eileen_resume.pdf": "/static/media/Eileen_resume.36b82be12996b39bd525.pdf",
     "static/media/march-banner.gif": "/static/media/march-banner.71ab6e6d2ba970918a3a.gif",
@@ -15,24 +15,28 @@
     "static/media/cake.png": "/static/media/cake.b5ee70b14f93c2a060cd.png",
     "static/media/Picture1.png": "/static/media/Picture1.798ca3553f5424225f0b.png",
     "static/media/publication.png": "/static/media/publication.cd4138cbf436f9bc584b.png",
+    "static/media/bfi-banner.png": "/static/media/bfi-banner.32e6eb12f68045963116.png",
     "static/media/mentorship kickoff.png": "/static/media/mentorship kickoff.a66b77eaabc524b0a782.png",
     "static/media/pilates.png": "/static/media/pilates.04bd17f43378205b9a83.png",
+    "static/media/survey.png": "/static/media/survey.afaa13b84dad1b7c4f96.png",
     "static/media/mockup.png": "/static/media/mockup.c0f333dc3c89dd693a42.png",
     "static/media/nav.png": "/static/media/nav.9637c98cb3271f60546f.png",
     "static/media/bearlodge.png": "/static/media/bearlodge.3d2aafcafad8a1ab84f9.png",
     "static/media/wireframes.png": "/static/media/wireframes.1150f5ae76a76b64fd9b.png",
     "static/media/awe flyer 2.png": "/static/media/awe flyer 2.09ad7c1a54edf7499f8d.png",
-    "static/media/bfi-banner.png": "/static/media/bfi-banner.32e6eb12f68045963116.png",
     "static/media/awe flyer.png": "/static/media/awe flyer.f9ececd5d70b82a097ab.png",
-    "static/media/bearlodgelogo.png": "/static/media/bearlodgelogo.2be50196498c11ea5a87.png",
+    "static/media/nova.gif": "/static/media/nova.33095db31c71e6fd7314.gif",
+    "static/media/bearlodgelogo.png": "/static/media/bearlodgelogo.65800fd50acb7c460edf.png",
     "static/media/graphic.png": "/static/media/graphic.0cb82bf1b6149b56e5bc.png",
     "static/media/show.png": "/static/media/show.71e0959db802045f5695.png",
     "static/media/about.png": "/static/media/about.9ab388fb10af1d22fc8e.png",
     "static/media/mooncake.png": "/static/media/mooncake.4327b0b582c64cc42c91.png",
+    "static/media/interview.png": "/static/media/interview.07d2c3c3b4e5fbd40cf4.png",
     "static/media/concept-3.png": "/static/media/concept-3.c36bcd79d0059de9f9c0.png",
     "static/media/plushie.png": "/static/media/plushie.806bdf9d5ff02da95d06.png",
     "static/media/music.png": "/static/media/music.3f6ce122ff77269d9773.png",
     "static/media/sushi.png": "/static/media/sushi.d20b29d3638abd9f067a.png",
+    "static/media/ig.png": "/static/media/ig.1083be75b3f4a5559962.png",
     "static/media/tiramisu.png": "/static/media/tiramisu.5a14be23380ccd06f167.png",
     "static/media/concept-1.png": "/static/media/concept-1.32ba5751bea86f310807.png",
     "static/media/travel.png": "/static/media/travel.5ee6985671be8a41ac6a.png",
@@ -52,11 +56,11 @@
     "static/media/eileen_logo.svg": "/static/media/eileen_logo.b16ece5871681aef43fea7c238b56505.svg",
     "index.html": "/index.html",
     "static/media/upright-arrow.svg": "/static/media/upright-arrow.253ed258555c51bb6fc7a514f0d03039.svg",
-    "main.5bbcf1bc.css.map": "/static/css/main.5bbcf1bc.css.map",
-    "main.e30d40a2.js.map": "/static/js/main.e30d40a2.js.map"
+    "main.6f80450f.css.map": "/static/css/main.6f80450f.css.map",
+    "main.18d3374d.js.map": "/static/js/main.18d3374d.js.map"
   },
   "entrypoints": [
-    "static/css/main.5bbcf1bc.css",
-    "static/js/main.e30d40a2.js"
+    "static/css/main.6f80450f.css",
+    "static/js/main.18d3374d.js"
   ]
 }
