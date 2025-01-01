@@ -1,23 +1,27 @@
 {
   "files": {
-    "main.css": "/static/css/main.6f80450f.css",
-    "main.js": "/static/js/main.18d3374d.js",
+    "main.css": "/static/css/main.097142ee.css",
+    "main.js": "/static/js/main.f10887a1.js",
     "static/media/OurKitchen.pdf": "/static/media/OurKitchen.8cf0e7997e13a8e7c26f.pdf",
     "static/media/Eileen_resume.pdf": "/static/media/Eileen_resume.36b82be12996b39bd525.pdf",
     "static/media/march-banner.gif": "/static/media/march-banner.71ab6e6d2ba970918a3a.gif",
     "static/media/sky2.png": "/static/media/sky2.27462b72ecf1ad6025cc.png",
     "static/media/summer-banner.gif": "/static/media/summer-banner.244aa941d7b76e4191d5.gif",
+    "static/media/Checkmate.pdf": "/static/media/Checkmate.4b1a8b68daf18989ca7e.pdf",
     "static/media/workheader.png": "/static/media/workheader.9b8aa781e475f88c8c3b.png",
     "static/media/sky.png": "/static/media/sky.291d13062931dcde92c8.png",
     "static/media/nero-big.gif": "/static/media/nero-big.10305fdd929910025597.gif",
     "static/media/berkeley.png": "/static/media/berkeley.e3d1559dad3c4f4a192e.png",
     "static/media/intel.png": "/static/media/intel.964d4023f3df739e5eb3.png",
+    "static/media/leaves.jpg": "/static/media/leaves.2b6701cf580a14df22d6.jpg",
     "static/media/cake.png": "/static/media/cake.b5ee70b14f93c2a060cd.png",
+    "static/media/ear.jpg": "/static/media/ear.54e6248567bd994e548c.jpg",
     "static/media/Picture1.png": "/static/media/Picture1.798ca3553f5424225f0b.png",
     "static/media/publication.png": "/static/media/publication.cd4138cbf436f9bc584b.png",
     "static/media/bfi-banner.png": "/static/media/bfi-banner.32e6eb12f68045963116.png",
     "static/media/mentorship kickoff.png": "/static/media/mentorship kickoff.a66b77eaabc524b0a782.png",
     "static/media/pilates.png": "/static/media/pilates.04bd17f43378205b9a83.png",
+    "static/media/pepper.jpg": "/static/media/pepper.dde16f7ccf2c64d62a61.jpg",
     "static/media/survey.png": "/static/media/survey.afaa13b84dad1b7c4f96.png",
     "static/media/mockup.png": "/static/media/mockup.c0f333dc3c89dd693a42.png",
     "static/media/nav.png": "/static/media/nav.9637c98cb3271f60546f.png",
@@ -29,6 +33,7 @@
     "static/media/bearlodgelogo.png": "/static/media/bearlodgelogo.65800fd50acb7c460edf.png",
     "static/media/graphic.png": "/static/media/graphic.0cb82bf1b6149b56e5bc.png",
     "static/media/show.png": "/static/media/show.71e0959db802045f5695.png",
+    "static/media/rose.jpg": "/static/media/rose.1c300c76dc4cfeff9570.jpg",
     "static/media/about.png": "/static/media/about.9ab388fb10af1d22fc8e.png",
     "static/media/mooncake.png": "/static/media/mooncake.4327b0b582c64cc42c91.png",
     "static/media/interview.png": "/static/media/interview.07d2c3c3b4e5fbd40cf4.png",
@@ -56,11 +61,11 @@
     "static/media/eileen_logo.svg": "/static/media/eileen_logo.b16ece5871681aef43fea7c238b56505.svg",
     "index.html": "/index.html",
     "static/media/upright-arrow.svg": "/static/media/upright-arrow.253ed258555c51bb6fc7a514f0d03039.svg",
-    "main.6f80450f.css.map": "/static/css/main.6f80450f.css.map",
-    "main.18d3374d.js.map": "/static/js/main.18d3374d.js.map"
+    "main.097142ee.css.map": "/static/css/main.097142ee.css.map",
+    "main.f10887a1.js.map": "/static/js/main.f10887a1.js.map"
   },
   "entrypoints": [
-    "static/css/main.6f80450f.css",
-    "static/js/main.18d3374d.js"
+    "static/css/main.097142ee.css",
+    "static/js/main.f10887a1.js"
   ]
 }
